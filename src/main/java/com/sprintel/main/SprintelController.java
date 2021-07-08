@@ -13,17 +13,22 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sprintel.main.entities.Status;
 import com.sprintel.main.services.CommonHandler;
 
 @RestController
 public class SprintelController {
 
-	private static final Logger logger = LoggerFactory.getLogger(SprintelController.class);
-	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
 	
 	@Autowired
 	CommonHandler commonHandler;
 
+	/*
+	 * 
+	private static final Logger logger = LoggerFactory.getLogger(SprintelController.class);
+	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	
     @RequestMapping("hello")
     public String sayHello() throws JsonProcessingException{
     	
@@ -53,6 +58,7 @@ public class SprintelController {
 		logger.info("SpringBoot+OpenShit:::RequestDateTime[{}]:::Payload[{}]",dtf.format(now), responseAsJson);
         return (responseAsJson);
     }
+    */
     
     @RequestMapping(value = "api/v1/hello1", method = RequestMethod.GET, produces = { "application/json"})
     public String service1(){

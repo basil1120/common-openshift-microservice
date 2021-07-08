@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sprintel.main.Status;
+import com.sprintel.main.entities.Status;
 
 @Service
 public class CommonHandler {
