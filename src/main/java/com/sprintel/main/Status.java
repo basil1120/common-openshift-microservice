@@ -1,4 +1,4 @@
-package com.sprintel.main.entities;
+package com.sprintel.main;
 
 public class Status {
 	

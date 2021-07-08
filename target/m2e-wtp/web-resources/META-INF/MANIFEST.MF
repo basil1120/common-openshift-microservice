@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: KEN19960
+Build-Jdk: 15.0.2
+Implementation-Title: common-openshift-microservice
+Implementation-Version: 1.0
+Implementation-Vendor-Id: common-openshift-microservice
+Implementation-Vendor: Pivotal Software, Inc.
+Created-By: Maven Integration for Eclipse
+
